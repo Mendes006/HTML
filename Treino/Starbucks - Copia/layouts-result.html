@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Starbucks</title>
+
+        <link rel="stylesheet" href="./style/layout-normalize.css">
+    </head>
+    <body>
+
+        <section>
+            <div class="circle"></div>
+            <header>
+                <a href="#"><img src="./assets/logo.png" class="logo"></a>
+                <ul>
+                    <li><a href="https://www.starbucks.com.br/">Inicio</a></li>
+                    <li><a
+                            href="https://www.starbucks.com.br/menu-list">Cardapio</a></li>
+                    <li><a
+                            href="https://www.starbucks.com.br/responsabilidade">Impacto
+                            Social</a></li>
+                    <li><a
+                            href="https://www.starbucksathome.com/br/">Vendas</a></li>
+                    <li><a id="botao-do-maico">Login</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <div class="textBox">
+                    <h2>Não é só Café<br>é <span>Starbucks</span></h2>
+                    <p>Starbucks expande programa Global Greener Stores e
+                        anuncia as primeiras 18 lojas certificadas no Brasil</p>
+                    <a
+                        href="https://historias.starbucks.com/br/press/2023/starbucks-expande-programa-global-greener-stores-e-anuncia-as-primeiras-18-lojas-certificadas-no-brasil/">Ler
+                        Mais</a>
+                </div>
+                <div class="imgBox">
+                    <img src="./assets/img1.png" class="starbucks">
+                </div>
+            </div>
+            <ul class="thumb">
+                <li><img src="./assets/thumb1.png"
+                        onclick="imgSlider('./assets/img1.png');changeCircleColor('#00754A')"></li>
+                <li><img src="./assets/thumb2.png"
+                        onclick="imgSlider('./assets/img2.png');changeCircleColor('#eb7495')"></li>
+                <li><img src="./assets/thumb3.png"
+                        onclick="imgSlider('./assets/img3.png');changeCircleColor('#d752b1')"></li>
+            </ul>
+            <ul class="sci">
+                <li><a href="https://www.facebook.com/StarbucksBrasil/"><img
+                            src="./assets/facebook.png"></a></li>
+                <li><a href="https://twitter.com/StarbucksBrasil"><img
+                            src="./assets/twitter.png"></a></li>
+                <li><a href="https://www.instagram.com/starbucksbrasil/"><img
+                            src="./assets/instagram.png"></a></li>
+            </ul>
+            <div id="login">
+                <div id="background-drop"></div>
+                <div class="card-login">
+                    <h1>LOGIN</h1>
+                    <div class="textfield">
+                        <label for="usuario">Usúario</label>
+                        <input type="text" name="usuario" placeholder="usuario">
+                    </div>
+                    <div class="textfield">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" placeholder="Senha">
+                    </div>
+                    <button class="btn-login">Login</button>
+                </div>
+            </div>
+        </section>
+        
+
+        <script src="./scripts/script.js"></script>
+    </body>
+</html>
