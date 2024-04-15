@@ -59,7 +59,7 @@ header ul li {
 header ul li a {
     display: inline-block;
     color: var(--cinzinha);
-    font-weight: 400;
+    font-weight: 500;
     margin-left: 40px;
     text-decoration: none;
 }
