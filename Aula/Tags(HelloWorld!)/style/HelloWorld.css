@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    /*Define como padrão de fonte Arial*/
+    color: white;
+    /*Define como padrão de cor da letra branco*/
+    background-color: black;
+    /*<body bgcolor="black"> <body bgcolor>*/
+    width: 100%;
+}
+
+.HelloWorld {
+    background-color: black;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    font-size: xx-large;
+}
+
+#hello-world {
+    margin: auto; 
+     
+}
+
+.dados-pessoais {
+    background: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+
+.site {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: beige;
+    color: black;
+    font-size: 200;
+}
+
+.titulo {
+    font-weight: 900;
+}
+
+.explicacao_html {
+    background: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+
+.explicacao {
+    padding-top: 60px;
+    padding-bottom: 0px;
+    font-weight: 100;
+    padding-left: 25px;
+    /*Passa todas a informações do cita mais para a direita*/
+}
+
+hr {
+    border-color: purple;
+}
+
+footer {
+
+    padding-left: 10px;
+
+}

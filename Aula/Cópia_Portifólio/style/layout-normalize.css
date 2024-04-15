@@ -1,0 +1,351 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Avenir.woff') format('woff'),
+       url('../fonts/Avenir.ttf') format('truetype'),
+       url('../fonts/Avenir.svg#Avenir') format('svg');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins_regular.woff2') format('woff2'),
+       url('../fonts/poppins_regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/poppins_semibold.woff2') format('woff2'),
+       url('../fonts/poppins_semibold.woff') format('woff');
+}
+
+p,
+h4 {
+  font-family: 'Avenir', Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.beige-left {
+  background-color: #E6DACE;
+  width: 763px;
+  height: 763px;
+  float: left;
+  position: relative;
+}
+
+.screen {
+  width: 353px;
+  height: 576px;
+  background-color: #F4ECE6;
+  position: absolute;
+  top: 56%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+}
+
+.titulo-screen {
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-size: 21px;
+  position: absolute;
+  bottom: 120px;
+  width: 100%;
+  text-align: center;
+}
+
+.texto-lateral {
+  line-height: 27px;
+  letter-spacing: 2px;
+  font-size: 16px;
+  width: 600px;
+  position: absolute;
+  top: 57%;
+  left: 46%;
+  transform: translate(98%, 20%);
+}
+
+.telinha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 353px;
+  height: 107px;
+  background-color: white;
+}
+
+.linkedin,
+.instagram {
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+
+.linkedin {
+  margin-right: 23px;
+}
+
+.linha-azul {
+  width: 16%;
+  height: 2px;
+  background-color: #0050FF;
+  position: absolute;
+  top: 360px;
+  left: 43%;
+}
+
+.mendes {
+  position: absolute;
+  top: 310px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.maicon {
+  position: absolute;
+  top: 277px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.maicon p {
+  font-weight: bold;
+  font-size: 29px;
+  margin: 0;
+  line-height: 1;
+  letter-spacing: 2px;
+}
+
+.mendes p {
+  font-weight: bold;
+  font-size: 29px;
+  margin: 0;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+.perfil-img {
+  width: 169px;
+  height: 169px;
+  border-radius: 50%;
+  position: absolute;
+  top: 62px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ola {
+  position: absolute;
+  top: 180px;
+  left: 133%;
+  transform: translateX(-50%);
+  font-size: 100px;
+  font-weight: bold;
+  font-family: 'Poppins', Helvetica, sans-serif;
+}
+
+.perfil-projetos {
+  position: absolute;
+  width: 530px;
+  top: 330px;
+  left: 157%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  font-weight: lighter;
+  font-family: 'Avenir', Helvetica, sans-serif;
+}
+
+footer {
+  padding: 20px;
+  height: 182px;
+  margin-top: 20px;
+  clear: both;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-right {
+  display: flex;
+  font-size: small;
+}
+
+.yex {
+  display: flex;
+  justify-content: center;
+}
+
+.email,
+.fone,
+.dados {
+  text-align: center;
+  margin-right: 90px;
+  padding-top: 45px;
+}
+
+.footer-left {
+  font-size: small;
+  padding-top: 45px;
+  margin-right: auto;
+  margin-left: 40px;
+}
+
+header {
+  display: flex;
+  height: 138px;
+  padding-top: 20px;
+}
+
+.logo-icon {
+  position: absolute;
+  top: 45px;
+  left: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.blue-square {
+  width: 15px;
+  height: 15px;
+  background-color: #0050FF;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 29px;
+  margin: 0;
+  line-height: 1;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+
+.nome {
+  display: flex;
+  position: absolute;
+  margin-left: 45px;
+}
+
+.nome p {
+  font-weight: bold;
+  font-size: 29px;
+  letter-spacing: 2px;
+}
+
+.sobre_nome {
+  display: flex;
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 45px;
+}
+
+.sobre_nome p {
+  font-weight: bold;
+  font-size: 29px;
+  letter-spacing: 1px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
+.separator {
+  display: flex;
+  margin-left: 195px;
+}
+
+.funcao {
+  font-size:larger;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  text-decoration: underline
+}
+
+.desenvolvedor {
+  display: flex;
+  margin-left: 7px;
+  margin-top: 40px;
+}
+
+.sistemas{
+  display: flex;
+  margin-left: 7px;
+  margin-top: -22px;
+}
+
+.header-right {
+  display: flex;
+  margin-left: 800px;
+  justify-content: flex-end;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header-item {
+  list-style-type: none;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.header-item:first-child {
+  color: #0050ff;
+}
+.header-right ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-item {
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.header-item:first-child {
+  color: #0050ff;
+}
+
+.botoes-direita {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+}
+
+.botao-azul, .botao-branco {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  margin-top: 150px;
+  margin-right: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  
+
+}
+
+.botao-azul {
+  background-color: #0050FF;
+  color: white;
+}
+
+.botao-branco {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
