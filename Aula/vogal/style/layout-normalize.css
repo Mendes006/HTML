@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --beige-bunitinho:#F2F0EB;
+    --verde-forte: #00754A;
+    --cinzinha: #333;
+    --branco: #FFF;
+    --rozinha: #eb7495;
+    --roxinho: #d752b1;
+    --verdam: #1E3932;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: var(--beige-bunitinho);
+}
